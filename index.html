@@ -17,6 +17,65 @@
     }
 </style>
 
+<style>
+    .marquee {
+        height: 50px;
+        width: 91%;
+        overflow: hidden;
+        position: relative;
+        background: #DBECD9;
+        color: #333;
+    }
+
+    .marquee p {
+        position: top;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        line-height: 50px;
+        text-align: center;
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+        -moz-animation: scroll-left 3s linear infinite;
+        -webkit-animation: scroll-left 3s linear infinite;
+        animation: scroll-left 30s linear infinite;
+    }
+
+    @-moz-keyframes scroll-left {
+        0% {
+            -moz-transform: translateX(100%);
+        }
+
+        100% {
+            -moz-transform: translateX(-100%);
+        }
+    }
+
+    @-webkit-keyframes scroll-left {
+        0% {
+            -webkit-transform: translateX(100%);
+        }
+
+        100% {
+            -webkit-transform: translateX(-100%);
+        }
+    }
+
+    @keyframes scroll-left {
+        0% {
+            -moz-transform: translateX(100%);
+            -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+        }
+
+        100% {
+            -moz-transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+        }
+    }
+</style>
 <script src="javascript.js">
     alert("Hello World!")
 </script>
@@ -33,10 +92,18 @@
             <a href="portfolio.html" style="color:white">portfolio</a>
         </center>
     </h3>
-    <p>
+    <center>
+        <div class="marquee">
+            <p>developer, problem solver, process improver, photographer, real estate agent, e-cyclist, cruiser</p>
+        </div>
+        <p class="center">
 
-        test
-    </p>
+            <br><br><br><br><br>
+            ...what I do have are a very particular set of skills. <br>Skills I have acquired over a very long
+            career...<br> - Bryan Mills
+        </p>
+    </center>
+
 </body>
 
 </html>
