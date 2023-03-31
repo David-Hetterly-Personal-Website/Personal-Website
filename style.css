@@ -8,6 +8,7 @@ h1 {
     background-color: #131921;
     color: white;
     margin: 0;
+    padding-left: 25px;
 }
 
 /*Top #131921 19 25 33 nav #232F3E 35 47 62 background #E3E6E6 227 230 230 foreground #DBECD9 219 236 217 */
@@ -72,4 +73,23 @@ h3 {
         background-size: 300px;
         width: 200px;
 
+    }
+
+    section>img {
+        height: 128px;
+    }
+
+    section:nth-of-type(odd)>img {
+        float: left;
+        margin: 0 24px 24px 0;
+    }
+
+
+    section:nth-of-type(even)>img {
+        float: right;
+        margin: 0 0 24px 24px;
+    }
+
+    section {
+        border-top: 1px solid #bbb;
     }
