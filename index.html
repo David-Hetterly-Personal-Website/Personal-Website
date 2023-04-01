@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>david.hetterly.personal.website</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 
 </head>
@@ -13,18 +13,20 @@
 <style>
     /* This text is in Franklin Gothic Medium */
     .class {
-        font-family: Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic, Arial, sans-serif;
+        font-family: Franklin Gothic, Franklin Gothic, ITC Franklin Gothic, Arial, sans-serif;
     }
 </style>
 
 <style>
+    /* This style creates the animated rainbow color marquee */
     .marquee {
         height: 50px;
-        width: 91%;
+        width: 100%;
         overflow: hidden;
-        position: relative;
-        background: #DBECD9;
-        color: #333;
+        position: center;
+        background: #37475A;
+        color: white;
+        margin: 0;
     }
 
     .marquee p {
@@ -82,35 +84,49 @@
 
 <body style="background-color: #E3E6E6;">
 
-    <h1>david hetterly </h1>
+    <h1>david.hetterly</h1>
     <h3>
-        <center>
+        <nav>
             <a href="index.html" style="color:white">home</a>
-            |
+            .
             <a href="about.html" style="color:white">about</a>
-            |
+            .
             <a href="portfolio.html" style="color:white">portfolio</a>
-        </center>
+        </nav>
     </h3>
-    <center>
-        <div class="marquee">
-            <p>developer, problem solver, process improver, photographer, real estate agent, e-cyclist, cruiser</p>
-        </div>
-        <section class="section-container">
+    </--use of section and article is much easier than div and span-->
+    <section class="center-box">
 
-            <section class="section-container">
-                <article class="section-body">
-                    <p class="center">
-                        <img src="img/david.jpg" width="200px">
-                        <br><br>
-                        ...what I do have are a very particular set of skills. <br>Skills I have acquired over a very
-                        long
-                        career...<br> - Bryan Mills
-                    </p>
-                </article>
-            </section>
-    </center>
-
+        <h4 class="animate-charcter"> developer, problem solver, process improver, photographer, real estate agent,
+            e-cyclist, cruiser</h4>
+    </section>
+    <section class="center-box">
+        <p class="center">
+            <img align="left" src="img/david.jpg" height="40%">
+            <br><br>
+            ...what I do have are a very particular set of skills. <br>Skills I have acquired over a very
+            long
+            career...<br> - Bryan Mills
+        </p>
+    </section>
 </body>
+<footer>
+    <center>
+        <a href="https://www.youtube.com/" target="_blank"><img
+                src="https://assets.techsmith.com/Images/content/youtube_social_square_grey.png" width="50px"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img
+                src="https://assets.techsmith.com/Images/content/mkt-resource-icons/Web_Social-Icon_Facebook-Update.svg"
+                width="50px"></a>
+        <a href="https://www.twitter.com/" target="_blank"><img
+                src="https://assets.techsmith.com/Images/content/mkt-resource-icons/Web_Social-Icon_Twitter-Update.svg"
+                width="50px"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img
+                src="https://assets.techsmith.com/Images/content/mkt-resource-icons/Web_Social-Icon_LinkedIn-Update.svg"
+                width="50px"></a>
+        <a href="mailto:dave.hetterly@gmail.com"><img
+                src="https://assets.techsmith.com/Images/content/mkt-resource-icons/Web_Social-Icon_Email-Update.svg"
+                width="50px"></a>
+    </center>
+</footer>
 
 </html>
