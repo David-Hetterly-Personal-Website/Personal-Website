@@ -22,7 +22,7 @@ This assignment submission explored the following:
 - Avoid [`<marquee>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee) and instead use [`css animation`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 - To better define the meaning of the content, use [semantic](https://developer.mozilla.org/en-US/docs/Glossary/Semantics) tags such as [`<header>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header), [`<nav>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav), [`<section>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section), [`<article>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article), [`<aside>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside), and [`<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer) and avoid using generic containers like [`<div>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div) and [`<span>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span) 
 - Learned how to use [`text-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align) and [`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) to better format containers
-- Not required, learned [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) Markdown
+- Not required, learned <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" target="blank">Basic writing and formatting syntax</a> Markdown
 
 This has been an exciting adventure so far. 
 
