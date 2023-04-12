@@ -39,7 +39,7 @@ h3 {
     text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 3s linear infinite;
+    animation: textclip 4s reverse infinite;
     display: inline-block;
     font-size: 20px;
     font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif
