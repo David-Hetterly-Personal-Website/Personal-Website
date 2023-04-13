@@ -5,24 +5,24 @@ nav {
 
 h1 {
     font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-    font-size: 40px;
+    font-size: 3vw;
     font-style: normal;
     font-variant: normal;
     font-weight: 800;
-    line-height: 80px;
+    line-height: 6vw;
     background-color: #131921;
     color: #fff;
     margin: 0;
-    padding-left: 25px
+    padding-left: 2vw
 }
 
 h3 {
     font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-    font-size: 28px;
+    font-size: 2vw;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 50px;
+    line-height: 4vw;
     background-color: #232F3E;
     color: #fff;
     margin: 0
@@ -36,10 +36,10 @@ h3 {
     background-size: 200% auto;
     color: #fff;
     background-clip: text;
-    text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 4s reverse infinite;
+    animation: textclip 3s reverse infinite;
+
     display: inline-block;
     font-size: 20px;
     font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif
@@ -53,49 +53,58 @@ h3 {
 
 .center {
     font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-variant: normal;
-    font-weight: lighter;
-    line-height: 20px;
-    background-size: 500px, 70%;
+    background-size: 5vw, 70%;
     background-image: linear-gradient(180deg, #DBECD9, #E3E6E6);
     margin: 0;
     width: 90%;
-    height: 1000px;
-    padding: 20px
+    height: 80%;
+    padding: 2vw
 }
 
 section {
-    border-top: 1px solid #bbb;
+    border-top: .1vw solid #bbb;
     justify-content: right
 }
 
 .about-section {
-    width: 1000px;
+    width: 98%;
     display: flex;
-    align-items: top
+    align-items: top;
+    float: left;
+}
+
+p {
+    padding-left: 1%;
+    text-justify: distribute;
 }
 
 .center-box {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center
 }
 
 footer {
     font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-    font-size: 40px;
+    font-size: 11vw;
     font-style: normal;
     font-variant: normal;
     font-weight: 800;
-    line-height: 80px;
+    line-height: 4vw;
     background-color: #131921;
     color: #fff;
     margin: 0;
     padding-left: 25px
 }
 
-img {
-    border: 1px solid #131921
+.about-img {
+    width: 250px;
+    height: auto;
+}
+
+.portfolio-img {
+    height: auto;
+    width: 20%;
 }
