@@ -5,26 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>personal.website.david.hetterly</title>
+    <title>contact.david.hetterly</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 
 </head>
 
+
 <style>
     /* This text is in Franklin Gothic Medium */
     .class {
-        font-family: Franklin Gothic, Franklin Gothic, ITC Franklin Gothic, Arial, sans-serif;
+        font-family: Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic, Arial, sans-serif;
     }
 </style>
 
-
-<script src="javascript.js">
-    alert("Hello World!")
-</script>
-
 <body style="background-color: #E3E6E6;">
-
-    <h1>david.hetterly</h1>
+    <h1>david.hetterly </h1>
     <h3>
         <nav>
             <a href="index.html" style="color:white">home</a>
@@ -34,23 +29,30 @@
             <a href="portfolio.html" style="color:white">portfolio</a>
             .
             <a href="contact.html" style="color:white">contact</a>
+
         </nav>
     </h3>
-    </--use of section and article is much easier than div and span-->
-    <section class="center-box" align="center">
-
-        <h4 class="animate-charcter"> developer, problem solver, process improver, photographer, real estate agent,
-            e-cyclist, cruiser</h4>
-    </section>
     <section class="center-box">
-        <p class="center" align="center">
-            <img align="center" src="img/david.jpg" height="350vw">
-            <br><br>
-            ...what I do have are a very particular set of skills. <br>Skills I have acquired over a very
-            long
-            career...<br> - Bryan Mills
-        </p>
+
+        <form class="center" class="container" action="receipt.html">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="user_email" placeholder="Your email..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
     </section>
+
 </body>
 <footer>
     <center>
